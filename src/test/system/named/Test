@@ -5,9 +5,8 @@ PORT=53
 . ../TESTS
 
 # name file query type
-tests=( 'SOA SOA.com SOA.com SOA' )
-# tests=( 'HINFO HINFO.com HINFO.com HINFO' )
-# tests=( 'ORIGIN ORIGIN.com www.sub.ORIGIN.com' )
+tests=( 'TCP TCP.com www.TCP.com' )
+
 
 for i in "${tests[@]}"
 do
